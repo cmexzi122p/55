@@ -1,0 +1,37 @@
+header, nav, main, section, article, aside, footer {
+    display: block;
+}
+
+.info-note {
+    background-color: #f4f7f6;
+    border-left: 4px solid #008080;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.95rem;
+    font-style: italic;
+    color: #333333;
+}
+
+.info-note h4 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #008080;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.btn-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #008080;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
